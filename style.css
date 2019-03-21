@@ -1,0 +1,39 @@
+/*
+	Crawler, by Terminal Illness
+		---Style---
+*/
+.box {
+	font-family: monospace;
+	color: #FFFFFF;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	border: 1px solid white;
+	overflow: scroll;
+}
+#textinput {
+	font-family: monospace;
+	background: #000000;
+	color: #FFFFFF;
+	border: 1px solid white;
+	width: 100px;
+	position: absolute;
+	text-align: center;
+	top:90%;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #000000; 
+}
+::-webkit-scrollbar-thumb {
+	background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}
+::-webkit-scrollbar-corner {
+	background: #000000;
+}
