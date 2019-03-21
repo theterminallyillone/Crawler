@@ -2,6 +2,7 @@
 	Crawler, by Terminal Illness
 		---Source---
 */
+
 function append(text) {
 	AGAIN = text;
 	let screentext = "<br>";
@@ -11,13 +12,6 @@ function append(text) {
 	}
 	screentext +="<br><br>"+text+"<br>";
 	SCREEN.text += screentext;
-}
-function use(item) {
-	if (SCREEN.applications.indexOf(item) != -1) {
-		execute(SCREEM.applications[SCREEN.applications.indexOf(item)]);
-	} else {
-		append("That does not apply here.");
-	}
 }
 function clear() {
 	SCREEN.text = "";
@@ -141,4 +135,12 @@ function submit() {
 	document.getElementById("textinput").value = "";
 	handled = false;
 }
+function use(item) {
+	if (SCREEN.applications.indexOf(item) != -1) {
+		execute(SCREEM.applications[SCREEN.applications.indexOf(item)]);
+	} else {
+		append("That does not apply here.");
+	}
+}
+
 init();

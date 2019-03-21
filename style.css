@@ -2,6 +2,7 @@
 	Crawler, by Terminal Illness
 		---Style---
 */
+
 .box {
 	font-family: monospace;
 	color: #FFFFFF;
@@ -25,8 +26,8 @@
 ::-webkit-scrollbar {
 	width: 10px;
 }
-::-webkit-scrollbar-track {
-	background: #000000; 
+::-webkit-scrollbar-corner {
+	background: #000000;
 }
 ::-webkit-scrollbar-thumb {
 	background: #888; 
@@ -34,6 +35,6 @@
 ::-webkit-scrollbar-thumb:hover {
 	background: #555; 
 }
-::-webkit-scrollbar-corner {
-	background: #000000;
+::-webkit-scrollbar-track {
+	background: #000000; 
 }
